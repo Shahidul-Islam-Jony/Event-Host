@@ -1,3 +1,5 @@
+// Installation cmd ==> npm install swiper
+
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
