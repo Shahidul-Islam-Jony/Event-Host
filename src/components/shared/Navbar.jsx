@@ -67,7 +67,7 @@ const Navbar = () => {
           <div className="py-2 pl-[84px] md:border-l-4 border-dashed flex gap-2 relative">
             <FaUserCircle className="text-3xl"></FaUserCircle>
             <IoCart className="text-3xl"></IoCart>
-            <span className="absolute right-1 top-1">3</span>
+            <span className="absolute right-0 top-1 bg-white text-blue-400 rounded-full px-1">3</span>
           </div>
           <div className="hidden md:block w-5 h-5 rounded-full bg-white absolute right-36 -top-6 "></div>
           <div className="hidden md:block w-5 h-5 rounded-full bg-white absolute right-36 -bottom-6"></div>

@@ -6,7 +6,7 @@ const Events = () => {
     <div>
       <div>
         <h2 className="text-3xl text-center my-4">Events</h2>
-        <div className="flex gap-8 justify-center">
+        <div className="flex gap-8 justify-center font-medium">
           <NavLink>All</NavLink>
           <NavLink>For you</NavLink>
           <NavLink>This Day</NavLink>
@@ -14,10 +14,10 @@ const Events = () => {
           <NavLink>Music</NavLink>
         </div>
       </div>
-      <div className="grid grid-cols-3 gap-6 my-14">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 my-14">
         {arr.map((item, idx) => (
           <div key={idx}>
-            <div className="card card-compact w-96 bg-base-200 shadow-xl p-4">
+            <div className="card card-compact bg-base-200 shadow-xl p-4">
               <div className="rounded-t-lg relative border-b-2 border-gray-400 border-dashed pb-4">
                 <img
                   src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
