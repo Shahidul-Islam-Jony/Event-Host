@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div className="bg-gradient-to-r from-[#591BFF] p-10 from-100% to-[#7B4AFF] to-67%">
+    <div className="bg-gradient-to-br from-[#591BFF] from-10% to-[#9c7fecef] to-90% p-10">
       <div className="footer border-b-2 border-white text-white">
         <aside>
           <h3 className="text-2xl">Event Host</h3>
@@ -31,7 +31,7 @@ const Footer = () => {
         </nav>
       </div>
       {/* After border */}
-      <div className="footer items-center p-4 bg-neutral bg-gradient-to-r from-[#591BFF] from-100% to-[#7B4AFF] to-67% text-white">
+      <div className="footer items-center p-4 bg-transparent text-white">
         <aside className="items-center grid-flow-col">
             <p>Follow us on </p>
           <a>

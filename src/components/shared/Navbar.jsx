@@ -4,7 +4,7 @@ import { IoCart } from "react-icons/io5";
 const Navbar = () => {
   return (
     <div className="w-11/12 mx-auto">
-      <div className="navbar mt-5 rounded-lg text-white bg-gradient-to-r from-[#591BFF] from-100% to-[#7B4AFF] to-67%">
+      <div className="navbar mt-5 rounded-lg text-white bg-gradient-to-r from-[#591BFF] from-10% to-[#9c7fecef] to-90% ">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -25,7 +25,7 @@ const Navbar = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow  bg-gradient-to-r from-[#591BFF] from-100% to-[#7B4AFF] to-67% rounded-box w-52"
+              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow  bg-gradient-to-r from-[#591BFF] from-10% to-[#9c7fecef] to-90% rounded-box w-52"
             >
               <li>
                 <a>Home</a>
