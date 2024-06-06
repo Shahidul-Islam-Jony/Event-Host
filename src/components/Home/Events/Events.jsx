@@ -6,7 +6,7 @@ const Events = () => {
     <div>
       <div>
         <h2 className="text-3xl text-center my-4">Events</h2>
-        <div className="flex gap-8 justify-center font-medium">
+        <div className="flex gap-4 md:gap-8 justify-center font-medium">
           <NavLink>All</NavLink>
           <NavLink>For you</NavLink>
           <NavLink>This Day</NavLink>
