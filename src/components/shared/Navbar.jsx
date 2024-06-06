@@ -41,7 +41,7 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <p className="text-xl w-fit pr-[92px] py-2 md:border-r-4 border-dashed relative">
+          <p className="text-xl w-fit pr-[88px] py-2 md:border-r-4 border-dashed relative">
             Event<span className="font-bold">Host</span>
             <div className="hidden md:block w-5 h-5 rounded-full bg-white absolute left-44 -bottom-6"></div>
             <div className="hidden md:block w-5 h-5 rounded-full bg-white absolute left-44 -top-6"></div>
