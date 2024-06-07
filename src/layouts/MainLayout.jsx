@@ -1,7 +1,8 @@
 import { Outlet } from "react-router-dom";
 // import Navbar from "../components/shared/Navbar";
-import Footer from "../components/shared/Footer";
+// import Footer from "../components/shared/Footer";
 import NavbarWoD from "../components/shared/NavbarWoD";
+import FooterWoD from "../components/shared/FooterWoD";
 
 
 const MainLayout = () => {
@@ -10,7 +11,8 @@ const MainLayout = () => {
             {/* <Navbar></Navbar> */}
             <NavbarWoD></NavbarWoD>
             <Outlet></Outlet>
-            <Footer></Footer>
+            {/* <Footer></Footer> */}
+            <FooterWoD></FooterWoD>
         </div>
     );
 };
