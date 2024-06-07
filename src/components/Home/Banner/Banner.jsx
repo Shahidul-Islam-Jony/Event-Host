@@ -23,7 +23,7 @@ const Banner = () => {
             <SwiperSlide>
               <div className="relative">
                 <img src={banner} alt="" />
-                <div className="absolute top-1/3 left-24  text-white text-left ">
+                <div className="absolute top-1/3 left-10 md:left-24  text-white text-left ">
                     <h2 className="text-2xl font-bold">CMA Fest</h2>
                     <p>Make memories that will last a lifetime. See your favorite <br /> artists live at CMA Fest!</p>
                     <div className="flex gap-4 mt-5">
