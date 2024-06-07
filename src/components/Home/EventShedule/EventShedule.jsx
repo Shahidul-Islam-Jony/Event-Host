@@ -16,7 +16,7 @@ const EventShedule = () => {
         <p className="flex items-center gap-2 mb-2"><FaCircleCheck /> Host Your Event With Easy Steps!</p>
         <p className="flex items-center gap-2 mb-2"><FaCircleCheck /> Host Your Event With Easy Steps!</p>
         <div>
-            <img src={clock} className="w-20 h-20 lg:w-44 lg:h-44 rounded-full absolute -bottom-7 md:-bottom-6 md:-right-6 lg:-bottom-10 lg:-right-10" alt="" />
+            <img src={clock} className="w-20 h-20 lg:w-44 lg:h-44 rounded-full absolute -bottom-7 -right-4 md:-bottom-6 md:-right-6 lg:-bottom-10 lg:-right-10" alt="" />
         </div>
       </div>
     </div>
